@@ -1,3 +1,4 @@
+```
 // start html
 
 <select  class="js-select">
@@ -8,12 +9,16 @@
 	<option disabled="disabled" value="">Portugal</option>
 	<option value="" >Germany</option>
 </select>
+```
   
- // js init
+
+ ```
+// js init
+
  new Select({
 	selector: ".js-select",
   cssClass: "select-custom"
 });
-  
+ 
   
   
